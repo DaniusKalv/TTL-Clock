@@ -38,23 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=The Clock.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=TTL Clock.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RJOTENFF
 
-[Document3]
+[Document2]
 DocumentPath=TTL Clock.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NXARDUBW
 
-[Document4]
+[Document3]
 DocumentPath=TTL Clock.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document4]
 DocumentPath=TTL Clock.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,70 +104,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for The Clock\Clock.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for The Clock\Clock.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for The Clock\Clock.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for The Clock\Clock.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for The Clock\Clock.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for The Clock\Clock.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for The Clock\Clock.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for The Clock\Clock.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for The Clock\Clock.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for The Clock\Clock.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for The Clock\Clock.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for The Clock\Clock.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for The Clock\Clock.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for The Clock\Clock.REP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for The Clock\Clock.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for The Clock\Design Rule Check - Clock.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -682,8 +601,10 @@ OutputName10=Gerber Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=Characters|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotDrillDrawingLayerPair0_HighLayer=Top Layer|PlotDrillDrawingLayerPair0_LowLayer=Bottom Layer|PlotDrillGuideLayerPair0_HighLayer=Top Layer|PlotDrillGuideLayerPair0_LowLayer=Bottom Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=Characters|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotDrillDrawingLayerPair0_HighLayer=Top Layer|PlotDrillDrawingLayerPair0_LowLayer=Bottom Layer|PlotDrillGuideLayerPair0_HighLayer=Top Layer|PlotDrillGuideLayerPair0_LowLayer=Bottom Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
 OutputType11=Gerber X2
 OutputName11=Gerber X2 Files
 OutputDocumentPath11=
@@ -1383,142 +1304,160 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=generic.SchLib
-ComponentDesignItemID0=CRYSTAL-GENERIC
-ComponentSymbolReference0=CRYSTAL-GENERIC
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=TTL Clock.IntLib
+ComponentDesignItemID0=1N5819
+ComponentSymbolReference0=1N5819
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=IC TTL 74xx.SchLib
-ComponentDesignItemID1=7400
-ComponentSymbolReference1=7400
-ComponentUpdate1=0
+ComponentLibraryIdentifier1=TTL Clock.IntLib
+ComponentDesignItemID1=74HC08
+ComponentSymbolReference1=74HC08
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=IC TTL 74xx.SchLib
-ComponentDesignItemID2=7402
-ComponentSymbolReference2=7402
-ComponentUpdate2=0
+ComponentLibraryIdentifier2=TTL Clock.IntLib
+ComponentDesignItemID2=74HC109
+ComponentSymbolReference2=74HC109
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=IC TTL 74xx.SchLib
-ComponentDesignItemID3=7404
-ComponentSymbolReference3=7404
-ComponentUpdate3=0
+ComponentLibraryIdentifier3=TTL Clock.IntLib
+ComponentDesignItemID3=74HC11
+ComponentSymbolReference3=74HC11
+ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=IC TTL 74xx.SchLib
-ComponentDesignItemID4=7408
-ComponentSymbolReference4=7408
-ComponentUpdate4=0
+ComponentLibraryIdentifier4=TTL Clock.IntLib
+ComponentDesignItemID4=74HC14
+ComponentSymbolReference4=74HC14
+ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=IC TTL 74xx.SchLib
-ComponentDesignItemID5=7414
-ComponentSymbolReference5=7414
-ComponentUpdate5=0
+ComponentLibraryIdentifier5=TTL Clock.IntLib
+ComponentDesignItemID5=74HC160
+ComponentSymbolReference5=74HC160
+ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=IC TTL 74xx.SchLib
-ComponentDesignItemID6=7421
-ComponentSymbolReference6=7421
-ComponentUpdate6=0
+ComponentLibraryIdentifier6=TTL Clock.IntLib
+ComponentDesignItemID6=74HC244
+ComponentSymbolReference6=74HC244
+ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=IC TTL 74xx.SchLib
-ComponentDesignItemID7=7432
-ComponentSymbolReference7=7432
-ComponentUpdate7=0
+ComponentLibraryIdentifier7=TTL Clock.IntLib
+ComponentDesignItemID7=74HC32
+ComponentSymbolReference7=74HC32
+ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=IC TTL 74xx.SchLib
-ComponentDesignItemID8=7474
-ComponentSymbolReference8=7474
-ComponentUpdate8=0
+ComponentLibraryIdentifier8=TTL Clock.IntLib
+ComponentDesignItemID8=74HC4017
+ComponentSymbolReference8=74HC4017
+ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=IC TTL 74xx.SchLib
-ComponentDesignItemID9=74HC190
-ComponentSymbolReference9=74HC190
-ComponentUpdate9=0
+ComponentLibraryIdentifier9=TTL Clock.IntLib
+ComponentDesignItemID9=74HC4024
+ComponentSymbolReference9=74HC4024
+ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=IC TTL 74xx.SchLib
-ComponentDesignItemID10=74HC244
-ComponentSymbolReference10=74HC244
-ComponentUpdate10=0
+ComponentLibraryIdentifier10=TTL Clock.IntLib
+ComponentDesignItemID10=74HC4060
+ComponentSymbolReference10=74HC4060
+ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=IC TTL 74xx.SchLib
-ComponentDesignItemID11=74HC4017
-ComponentSymbolReference11=74HC4017
-ComponentUpdate11=0
+ComponentLibraryIdentifier11=TTL Clock.IntLib
+ComponentDesignItemID11=74HC4511
+ComponentSymbolReference11=74HC4511
+ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=IC TTL 74xx.SchLib
-ComponentDesignItemID12=74HC4024
-ComponentSymbolReference12=74HC4024
-ComponentUpdate12=0
+ComponentLibraryIdentifier12=TTL Clock.IntLib
+ComponentDesignItemID12=74HC74
+ComponentSymbolReference12=74HC74
+ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=IC TTL 74xx.SchLib
-ComponentDesignItemID13=74HC4060
-ComponentSymbolReference13=74HC4060
-ComponentUpdate13=0
+ComponentLibraryIdentifier13=TTL Clock.IntLib
+ComponentDesignItemID13=AB26T-32.768KHZ
+ComponentSymbolReference13=AB26T-32.768KHZ
+ComponentUpdate13=1
 ComponentIsDeviceSheet13=0
 ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=IC TTL 74xx.SchLib
-ComponentDesignItemID14=74HC4511
-ComponentSymbolReference14=74HC4511
-ComponentUpdate14=0
+ComponentLibraryIdentifier14=TTL Clock.IntLib
+ComponentDesignItemID14=BC547
+ComponentSymbolReference14=BC547
+ComponentUpdate14=1
 ComponentIsDeviceSheet14=0
 ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=PBL - Connectors.SCHLIB
-ComponentDesignItemID15=CONN_PWR_JACK_2.1x5.5mm
-ComponentSymbolReference15=CONN_PWR_JACK_2.1x5.5mm
-ComponentUpdate15=0
+ComponentLibraryIdentifier15=TTL Clock.IntLib
+ComponentDesignItemID15=BC557
+ComponentSymbolReference15=BC557
+ComponentUpdate15=1
 ComponentIsDeviceSheet15=0
 ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=Schematic Components.SchLib
-ComponentDesignItemID16=CapPol
-ComponentSymbolReference16=CapPol
-ComponentUpdate16=0
+ComponentLibraryIdentifier16=TTL Clock.IntLib
+ComponentDesignItemID16=Capacitor radial TH 100mil
+ComponentSymbolReference16=Capacitor radial TH 100mil
+ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=Switches.SchLib
-ComponentDesignItemID17=SW-PB-C&K
-ComponentSymbolReference17=SW-PB-C&K
-ComponentUpdate17=0
+ComponentLibraryIdentifier17=TTL Clock.IntLib
+ComponentDesignItemID17=CapPol
+ComponentSymbolReference17=CapPol
+ComponentUpdate17=1
 ComponentIsDeviceSheet17=0
 ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=TH Capacitors.SchLib
-ComponentDesignItemID18=capacitor radial TH 100mil
-ComponentSymbolReference18=capacitor radial TH 100mil
-ComponentUpdate18=0
+ComponentLibraryIdentifier18=TTL Clock.IntLib
+ComponentDesignItemID18=CONN_PWR_JACK_2.1x5.5mm
+ComponentSymbolReference18=CONN_PWR_JACK_2.1x5.5mm
+ComponentUpdate18=1
 ComponentIsDeviceSheet18=0
 ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=TH Optoelectronics.SchLib
-ComponentDesignItemID19=HDSP-B03E
-ComponentSymbolReference19=HDSP-B03E
-ComponentUpdate19=0
+ComponentLibraryIdentifier19=TTL Clock.IntLib
+ComponentDesignItemID19=ELC09D331F
+ComponentSymbolReference19=ELC09D331F
+ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=TH Resistors.SchLib
-ComponentDesignItemID20=THR1/4-GENERIC
-ComponentSymbolReference20=THR1/4-GENERIC
+ComponentLibraryIdentifier20=TTL Clock.IntLib
+ComponentDesignItemID20=HDSP-B03E
+ComponentSymbolReference20=HDSP-B03E
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=TH Transistors.SchLib
-ComponentDesignItemID21=BC547
-ComponentSymbolReference21=BC547
-ComponentUpdate21=0
+ComponentLibraryIdentifier21=TTL Clock.IntLib
+ComponentDesignItemID21=LM2574
+ComponentSymbolReference21=LM2574
+ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
-FullReplace=1
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=TTL Clock.IntLib
+ComponentDesignItemID22=NE555
+ComponentSymbolReference22=NE555
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=TTL Clock.IntLib
+ComponentDesignItemID23=R-THR1/4-GENERIC
+ComponentSymbolReference23=R-THR1/4-GENERIC
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=TTL Clock.IntLib
+ComponentDesignItemID24=SW-PB-6x6-20
+ComponentSymbolReference24=SW-PB-6x6-20
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+FullReplace=0
 UpdateDesignatorLock=0
 UpdatePartIDLock=0
 PreserveParameterLocations=1
@@ -1530,71 +1469,47 @@ AddParameters=0
 RemoveParameters=0
 AddModels=1
 RemoveModels=1
-UpdateCurrentModels=1
-ParameterName0=Category
-ParameterUpdate0=1
+UpdateCurrentModels=0
+ParameterName0=Capacitance
+ParameterUpdate0=0
 ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Cpapcitance
+ParameterName3=ComponentLink1Description
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=ComponentLink1URL
 ParameterUpdate4=1
-ParameterName5=HelpURL
+ParameterName5=Description
 ParameterUpdate5=1
-ParameterName6=Library Reference
+ParameterName6=Frequency
 ParameterUpdate6=1
-ParameterName7=Manufacturer 1
+ParameterName7=HelpURL
 ParameterUpdate7=1
-ParameterName8=Manufacturer Part Number 1
+ParameterName8=Inductance
 ParameterUpdate8=1
-ParameterName9=Mounting Type
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=NI?
-ParameterUpdate10=1
-ParameterName11=O?
+ParameterName10=Resistance
+ParameterUpdate10=0
+ParameterName11=Specifications
 ParameterUpdate11=1
-ParameterName12=Package / Case
-ParameterUpdate12=1
-ParameterName13=SCDType
-ParameterUpdate13=1
-ParameterName14=Section
-ParameterUpdate14=1
-ParameterName15=Supplier 1
-ParameterUpdate15=1
-ParameterName16=Supplier Part Number 1
-ParameterUpdate16=1
-ParameterName17=Text Field1
-ParameterUpdate17=1
-ParameterName18=Text Field2
-ParameterUpdate18=1
-ParameterName19=Text Field3
-ParameterUpdate19=1
-ParameterName20=Text Field4
-ParameterUpdate20=1
-ParameterName21=Text Field5
-ParameterUpdate21=1
-ParameterName22=Text Field6
-ParameterUpdate22=1
-ParameterName23=Value
-ParameterUpdate23=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=C_POL_Radial_1000uF
+ModelName0=1N500X
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=C_POL_RADIAL_100UF
+ModelName1=C_POL_Radial_220uF
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=C_POL_Radial_220uF
+ModelName2=C_Pol_Radial_22uF
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=C_Pol_Radial_22uF
+ModelName3=CONN_PWR_JACK_2.1x5.5mm
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=CONN_PWR_JACK_2.1x5.5mm
+ModelName4=CONN_PWR_JACK_2.1x5.5mm_PRO
 ModelUpdate4=1
 ModelType5=PCBLIB
 ModelName5=CTH radial 100mil
@@ -1609,28 +1524,28 @@ ModelType8=PCBLIB
 ModelName8=DIP20
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=LED DISPLAY 4x7seg clock red
+ModelName9=DIP8
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=R-vertical
+ModelName10=ELC10D inductor
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=SO14
+ModelName11=LED DISPLAY 4x7seg clock red
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=SW-C&K
+ModelName12=R-vertical
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=THR1/4-GENERIC
+ModelName13=SW-PB-6x6-20
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=TO92
+ModelName14=THR1/4-GENERIC
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=XTAL through hole
+ModelName15=TO92
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=XTAL-RU49/4
+ModelName16=XTAL through hole
 ModelUpdate16=1
 
 [DatabaseUpdateOptions]
