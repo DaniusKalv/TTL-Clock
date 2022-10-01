@@ -18,7 +18,7 @@ Power is supplied from an external AC-DC adapter. 5V to 20V wide input voltage r
 ## Shematic
 Here is the final [schematic](TTL%20Clock.pdf).
 
-![Schematic](img/Schematic.jpg)
+![Schematic](img/schematic.jpg)
 
 ## Printed Circuit Board
 PCB is standard 2-layer 1.6mm with through-hole components only.
